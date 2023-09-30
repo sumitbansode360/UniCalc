@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body background="C:\Users\ASUS\Downloads\temprature1.jpeg" style="background-repeat:no-repeat;  background-size:100%">
+<body>
+
+	<header>
+        <h1>UniCalc.com</h1>
+    </header>
+    <nav>
+        <a id="length-converter" href="index.html">Length converter</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+        <a id="temp-converter" href="">Temperature converter</a> &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a id="angle-converter" href="angle.html">Angle converter</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+    </nav>
+    <h3 class="top-txt"><marquee width="60%" direction="left" height="100px">Type a value in any of the fields to convert between Temperature measurements:</marquee></h3>
+    <table class="container">
+        <th colspan="2">Temperature Converter</th>
+        <tr>
+            <th class="inputContainer">Celsius</th>
+            <td><input type="number" id="celsius" oninput="convertToOthers('celsius',this.value)"></td>
+        </tr>
+        <tr>
+            <th class="inputContainer">Fahrenheit</th>
+            <td><input type="number" id="fahrenheit" oninput="convertToOthers('fahrenheit',this.value)"></td>
+        </tr>
+        <tr>
+            <th class="inputContainer">Kelvin</th>
+            <td><input type="number" id="kelvin" oninput="convertToOthers('kelvin',this.value)"></td>
+        </tr>
+    </table>
+    <script src="script1.js"></script>
+</body>
+</html>

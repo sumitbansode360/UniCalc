@@ -1,0 +1,79 @@
+h1 {
+  color: white; /* set the color of the h1 element to white */
+  font-weight: bold;
+  
+}
+a{
+	color:white;
+}
+header {
+  margin: 20px;
+}
+
+nav {
+  margin: 20px;
+}
+
+/*h1:contains('unicalc text') {
+  color: white; /* set the color of the h1 element with the text "unicalc text" to white */
+}
+
+body {
+    font-family: Arial, sans-serif; /* change the font family to Arial */
+}
+
+.container {
+  margin: 0 auto; /* center the container */
+  width: 50%; /* set the container width to 80% of the viewport */
+  padding: 40px; /* add some padding to the container */
+  border-radius: 5px; /* add rounded corners to the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a box shadow to the container */
+  background-color: #f7f7f7; /* add a light gray background color */
+  color: #333; /* add a dark gray font color */
+  font-family: Arial, sans-serif; /* set the font family to Arial or a sans-serif font */
+  font-size: 16px; /* set the font size to 16px */
+  line-height: 1.5; /* set the line height to 1.5 times the font size */
+}
+
+
+p {
+    font-size: 24px; /* increase the font size of all paragraphs to 24px */
+    font-weight: bold; /* make all paragraphs bold */
+	 text-align: center;
+}
+
+.top-txt {
+    text-align: center; /* center the top text */
+    margin-top: 50px; /* add some top margin to the top text */
+    font-size: 36px; /* increase the font size */
+    font-weight: bold; /* make the font bold */
+    color: white; /* add a dark gray color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* add a subtle text shadow */
+}
+
+.inputContainer {
+    display: flex; /* use flexbox to align labels and inputs horizontally */
+    align-items: center; /* center the labels and inputs vertically */
+    margin: 10px 0; /* add some margin between each input container */
+}
+
+
+
+label {
+    flex: 1; /* make the labels take up equal space as the inputs */
+    font-size: 18px; /* decrease the font size of the labels to 18px */
+}
+
+input[type="number"] {
+    flex: 2; /* make the inputs take up twice the space as the labels */
+    font-size: 18px; /* increase the font size of the inputs to 18px */
+    padding: 5px; /* add some padding to the inputs */
+    border: none; /* remove the border */
+    border-radius: 3px; /* add rounded corners to the inputs */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* add a box shadow to the inputs */
+}
+
+input[type="number"]:focus {
+    outline: none; /* remove the outline when an input is focused */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* add a blue box shadow when an input is focused */
+}

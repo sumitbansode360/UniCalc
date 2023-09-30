@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<header>
+		<h1>UniCalc.com</h1>
+	</header>
+    <title>angle coverter</title>
+    <link rel="stylesheet" href="angle.css">
+	<nav>
+		<a id="length-converter" href="index.html" >Length converter</a> &nbsp &nbsp &nbsp &nbsp 
+		<a id="temp-converter" href="temp.html">Temprature converter</a> &nbsp &nbsp &nbsp &nbsp &nbsp
+		<a id="angle-converter" href="angle.html">Angle converter</a>&nbsp &nbsp &nbsp &nbsp &nbsp
+	</nav>
+</head>
+<body background="C:\Users\ASUS\Downloads\angle.jpeg" style="background-repeat:no-repeat;  background-size:100%">
+    <h3 class="top-txt"><marquee width="80%" direction="left" height="100px">Type a value in any of the fields to convert between Length measurements:</marquee></h3>
+    <div class="container ">
+        <p>angle converter</p>
+        <div class="inputContainer">
+            <label for="degree">Degree</label><input type="number" name="" id="degree"  oninput="convertToOthers('degree',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="radian">Radian</label><input type="number" name="" id="radian" oninput="convertToOthers('radian',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="gradian">Gradian</label><input type="number" name="" id="gradian" oninput="convertToOthers('gradian',this.value)">
+        </div>
+    </div>        
+    <script src="script2.js"></script>
+</body>
+</html>

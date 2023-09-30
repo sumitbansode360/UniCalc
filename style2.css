@@ -1,0 +1,82 @@
+/* Set the color of the h1 element to white */
+header {
+  margin: 20px;
+}
+
+nav {
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: Times New Roman , sans-serif;
+}
+
+/* Set the color of links to white */
+a {
+  color: white;
+}
+
+/* Change the font family of the body to Arial */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+  margin: 0 auto;
+  width: 40%;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Increase the font size and add bold font-weight to all paragraphs */
+p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Center and style the top text */
+.top-txt {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the input container using flexbox */
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+/*increase the width of the input container */
+}
+/* Style the label in the input container */
+
+
+/* Style the number input in the input container */
+input[type="number"] {
+    flex: 2; /* make the inputs take up twice the space as the labels */
+    font-size: 18px; /* increase the font size of the inputs to 18px */
+    padding: 5px 10px; /* reduce the horizontal padding of the inputs to 10px */
+    border: none; /* remove the border */
+    border-radius: 3px; /* add rounded corners to the inputs */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* add a box shadow to the inputs */
+    width: 100%; /* set the width of the inputs to 100% */
+}
+
+/* Style the number input when it is focused */
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
